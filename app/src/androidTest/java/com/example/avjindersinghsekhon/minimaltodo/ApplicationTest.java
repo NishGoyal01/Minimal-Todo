@@ -9,5 +9,7 @@ import android.test.ApplicationTestCase;
 public class ApplicationTest extends ApplicationTestCase<Application> {
     public ApplicationTest() {
         super(Application.class);
+        // Initialize any necessary resources here
+        // This is a placeholder for the application test case
     }
 }

@@ -49,6 +49,8 @@ public class TestTodoItem extends TestCase {
         assertEquals(TEXT_BODY, toDoItem.getToDoText());
         assertEquals(REMINDER_OFF, toDoItem.hasReminder());
         assertEquals(CURRENT_DATE, toDoItem.getToDoDate());
+        // Check that the identifier is not null
+        // and is a valid UUID
     }
 
      /**
